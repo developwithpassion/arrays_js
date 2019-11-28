@@ -36,7 +36,7 @@
     "test": "mocha --require @babel/register ./lib/**/*.spec.js"
   },
   "lint-staged": {
-    "*.js": [
+    "lib/**/*.js": [
       "yarn pretty",
       "yarn lint",
       "yarn build",
