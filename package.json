@@ -30,16 +30,18 @@
     "prettier": "^1.19.1"
   },
   "scripts": {
+    "bump-patch": "pnpm version patch",
     "build": "parcel build ./lib/index.js",
+    "docs-build": "documentation build lib/index.js -f md -o docs.md",
     "pretty": "prettier --config-precedence prefer-file --write \"lib/**/*.js\"",
     "lint": "eslint lib/**/*.js",
     "test": "mocha --require @babel/register ./lib/**/*.spec.js"
   },
   "lint-staged": {
     "lib/**/*.js": [
-      "yarn pretty",
-      "yarn lint",
-      "yarn build",
+      "pnpm run pretty",
+      "pnpm run lint",
+      "pnpm run build",
       "git add"
     ]
   }
