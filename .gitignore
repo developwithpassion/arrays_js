@@ -1,2 +1,6 @@
 /node_modules
 /.cache
+/dist
+/coverage
+/yarn-error.*
+/pnpm-lock.yaml
