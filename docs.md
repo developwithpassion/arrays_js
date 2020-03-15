@@ -78,7 +78,7 @@ Returns **([undefined][63] \| [Boolean][64])** Returning a value of false will c
 
 ## each
 
-This function is used to iterate over every element in an array
+This function is used to iterate and perform an action over every element in an array
 
 ### Parameters
 
@@ -113,7 +113,7 @@ each_until((val) => { console.log(val); return val !== 5}, numbers)
 
 ## each_in_reverse
 
-This function is used to iterate over every element in an array in reverse
+This function is used to iterate and perform an action over every element in an array in reverse
 
 ### Parameters
 
@@ -148,7 +148,7 @@ each_in_reverse((val) => { console.log(val); return val !== 5}, numbers)
 
 ## reduce~Reducer
 
-An reducer processes each element in a data structure and returns the result of processing
+A reducer processes each element in a data structure and returns the result of processing
 the element along with an accumulator that is being adjusted as each item is being processed
 
 Type: [Function][59]
