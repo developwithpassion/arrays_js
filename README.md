@@ -4,4 +4,6 @@
 [![Coverage Status](https://coveralls.io/repos/github/developwithpassion/arrays_js/badge.svg?branch=master)](https://coveralls.io/github/developwithpassion/arrays_js?branch=master)
 ![GitHub top language](https://img.shields.io/github/languages/top/developwithpassion/arrays_js)
 
+Simple ,context last, array utility methods.
+
 [Documenation](docs.md)
