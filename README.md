@@ -6,4 +6,4 @@
 
 Simple ,context last, array utility methods.
 
-[Documenation](docs.md)
+[Documentation](docs.md)
